@@ -1,0 +1,25 @@
+.header-wrapper{
+	margin-top: 58px;
+	margin-bottom: -135px;
+}
+.header{
+	height: 113px;
+}
+
+#cup_img{
+	bottom: 128px;
+}
+
+button{
+	position: relative;
+	right: 46px;
+	bottom: 89px;
+}
+
+#fifa_logo{
+	bottom: 125px;
+}
+
+.title a{
+	pointer-events: none;
+}

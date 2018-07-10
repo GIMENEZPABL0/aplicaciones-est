@@ -1,0 +1,43 @@
+#contenedor{
+  margin: 0 auto;
+  width: 700px;
+  height: auto;
+}
+
+
+#uno{
+  border: 2px;
+  border-style: solid;
+  border-color:black;
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 100px;
+}
+#dos{
+  border: 2px;
+  border-style: solid;
+  border-color:black;
+  height: 150px;
+  width: 150px;
+  float:left;
+  margin: 0 85px;
+  padding: 10px;
+  background-color: green;
+  border-radius: 100px;
+}
+#tres{
+  border: 2px;
+  border-style: solid;
+  border-color:black;
+  float: right;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: red;
+  border-radius: 100px;
+}

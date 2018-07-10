@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+            <link rel="icon" type="image/png" href="../../images/favicon-32x32.png"/>
+             <meta charset="UTF-8"/>
+			<title> EJERCICIO N°2 </title>
+		</head>
+        <style>
+        .table {
+            border-collapse : collapse;
+        }
+        .b{
+            border-bottom: 2px solid;
+            border-color : white white blue blue;
+        }
+        .a{
+            border-color : white white white blue;
+        }
+        .first{
+            border-color : blue lightgray blue;
+        }
+        .right{
+            border-right-color : blue;
+        }
+        #first{
+            border-right-color : lightgray;
+        }
+        </style>
+		<body>
+            <table summary = "Pedido de Electrónica">
+            <caption><h2 align = left>Pedido de Electrónica</h2></caption>
+            <tr align "center">
+                <th scope = "col"> Nombre de producto</th>
+                <th scope = "col"> Precio unitario</th>
+                <th scope = "col"> Unidades</th>
+                <th scope = "col"> Subtotal</th>
+            </tr>
+            <tr align = "center">
+                <th scope = "row"> Reproductor MP4 (16 GB)</th>
+                <td> $105</td>
+                <td> 2</td>
+                <td> $210</td>
+            </tr>
+            <tr align = "center">
+                <th scope = "row"> Fundas de colores</th>
+                <td> $2</td>
+                <td> 5</td>
+                <td> $10</td>
+            </tr>
+            <tr align = "center">
+                <th scope = "row"> Reproductor MP4 (4 GB)</th>
+                <td> $60</td>
+                <td> 2</td>
+                <td> $120</td>
+            </tr>
+            <tr align = "center">
+                <th scope = "row" > TOTAL</th>
+                <td> -</td>
+                <td> 9</td>
+                <td> $340</td>
+            </tr>
+            </table>
+            <table class = "table" border = "1" bordercolor = blue>
+            <caption><h2 align = left>Pedido de Electrónica</h2></caption>
+            <tr align "center" bgcolor = "lightgray">
+                <th id = "first" scope = "col"> Nombre de producto</th>
+                <th class = "first" scope = "col"> Precio unitario</th>
+                <th class = "first" scope = "col"> Unidades</th>
+                <th scope = "col"> Subtotal</th>
+            </tr>
+            <tr class = "a" align = "center">
+                <th scope = "row"> Reproductor MP4 (16 GB)</th>
+                <td> $105</td>
+                <td> 2</td>
+                <td class = "right"> $210</td>
+            </tr>
+            <tr class = "a" align = "center">
+                <th scope = "row"> Fundas de colores</th>
+                <td> $2</td>
+                <td> 5</td>
+                <td class = "right"> $10</td>
+            </tr>
+            <tr align = "center" class = "b" >
+                <th scope = "row"> Reproductor MP4 (4 GB)</th>
+                <td> $60</td>
+                <td> 2</td>
+                <td class = "right"> $120</td>
+            </tr>
+            <tr align = "center" bgcolor = "lightgray">
+                <th id = "first"scope = "row"> TOTAL</th>
+                <th class = "first"> -</th>
+                <th class = "first"> 9</th>
+                <th class = "right"> $340</th>
+            </tr>
+            </table>
+		</body>
+	</html>
