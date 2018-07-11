@@ -14,10 +14,9 @@ footer{
     bottom: 0;
     margin-bottom: -16px;
     width: 100%;
-    background: linear-gradient(to right,#fff,#ddd,#fff);
-    color: black;
+    background: linear-gradient(to right,#fff,#cee,#fff);
     text-align: center;
-    clear:both;
+    clear: both;
 }
 @font-face{
 	font-family: "roboto";
