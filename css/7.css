@@ -27,53 +27,44 @@ ul{
   list-style: none;
 }
 .top{
-  background-color: #222831;
-  height: 500px;
+  margin-top: 8vh;
   width: 100%;
-  padding-bottom: 225px;
+  height: 400px;
+  background-color: #222831;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: baseline;
+  align-items: flex-start;
+}
+.navbar{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.navbar ul{
+  display: inherit;
+}
+.navbar li{
+  height: 1vh;
+  margin: 0px 8px;
+}
+.navbar a:hover{
+  color: #FD7013;
+  transition: color .45s;
 }
 .logo{
-  display:block;
+  display: flex;
   background: url('../images/7/logo.png')top center no-repeat;;
   margin: 0 4vw 0 4vw;
   width: 250px;
   height: 244px;
   z-index: 2;
 }
-.navbar{
-  margin: 32px 0 0 0;
-  text-align: center;
-}
-.navbar-leftside{
-  position: static;
-  display: inline;
-}
-.navbar-rightside{
-  position: static;
-  display: inline;
-}
-.navcontent li{
-  display: inline-block;
-  height: 20px;
-  margin: 0px 8px;
-}
-.navcontent li:hover{
-  color: #FD7013;
-  transition: color .4s;
-}
-.navcontent ul{
-  text-shadow: -1px 1px 0 black;
-}
 /* MIDDLE */
 .middle div{
-  display: block;
-  position: relative;
-  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: 250px;
+  height: 200px;
   text-align: center;
   background-size: 100%;
   transition: all .4s;
@@ -115,16 +106,13 @@ ul{
   color: #00aced;
 }
 .socialdiv .fa-instagram:hover{
-  color: #c32aa3;
+  color: #517fa4;
 }
 .socialdiv .fa-google-plus-g:hover{
   color: #db4437;
 }
 .socialdiv .fa-whatsapp:hover{
   color: #25d366;
-}
-.socialdiv .fa-telegram-plane:hover{
-  color: #0088CC;
 }
 /* HISTORY DIV */
 .historydiv{
