@@ -82,7 +82,7 @@ transform: rotate(20deg) scale(1.3);
 /* DIVS */
 /* TOP */
 .top{
-  margin-top: 8vh;
+  margin-bottom: 20px;
   width: 100%;
   height: 400px;
   background-color: #222831;
@@ -101,6 +101,7 @@ transform: rotate(20deg) scale(1.3);
 .navbar li{
   height: 1vh;
   margin: 0px 8px;
+  font-family: serif;
 }
 .navbar a:hover{
   color: #FD7013;
@@ -114,58 +115,22 @@ transform: rotate(20deg) scale(1.3);
   height: 400px;
   width: 400px;
 }
-/* MIDDLE */
-.middle div{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 200px;
-  text-align: center;
-  background-size: 100%;
-  transition: all .4s;
+/* CAROUSEL */
+#carouselExampleControls img{
+  height: 600px;
 }
-.middle div:hover{
-  background-size: 115%;
+#carouselExampleControls h1{
+  text-shadow: 0 0 1px black;
 }
-.middle p{
-  position: relative;
-  font-family: 'Lobster-Regular';
-  font-weight: 100;
-  font-size: 48pt;
-  text-shadow:
-    1px 1px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-  display: none;
-}
-/* HISTORY DIV */
-.historydiv{
-  background: url('../images/7/history.jpg')center no-repeat;
-  background-position: center bottom;
-}
-  /* dessertdiv */
-.dessertdiv{
-  background: url('../images/7/dessert.jpg')center no-repeat;
-}
-.dessertdiv p{
-
-  top: 100px;
-  left: 23%;
-  color: #f368e0;
-}
-.sitediv{
-  background: url('../images/7/site.jpg')center no-repeat;
+.carousel-caption{
+  background-color: rgba(0,0,0,.3);
 }
 /* FOOTER  */
 .footer{
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
-  background-image: -webkit-linear-gradient(bottom, #282D35, #222831);
-  background-image: -o-linear-gradient(bottom, #282D35, #222831);
-  background-image: linear-gradient(to top, #282D35, #222831);
+  background-color: #222831;
   width: 100%;
   height: 500px;
   margin-top: 30px;
@@ -193,7 +158,6 @@ transform: rotate(20deg) scale(1.3);
 }
 
 /* ANIMACIONES */
-/*
 
 .animated {
   -webkit-animation-duration: 1s;
@@ -461,4 +425,3 @@ transform: rotate(20deg) scale(1.3);
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
 }
-*/
